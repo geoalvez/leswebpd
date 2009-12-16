@@ -1,0 +1,107 @@
+<style>
+	body,td{ font-family: Verdana; font-size: 13 }
+
+	.index{ font-size: 16; font-weight: bold }
+	.code{ font-family: Courier New }
+	.sample{ background-color: #D0D0D0; padding: 10; border: 1px dashed }
+	
+	.t1{ font-weight: bold; color: blue }
+	.t2{ font-weight: bold; color: green }
+</style>
+
+<table>
+	<tr><td class=index>Disciplina:</td><td class=index>Web design</td></tr>
+	<tr><td class=index>Professor:</td><td class=index>Jackson Porciúncula</td></tr>
+</table>
+<br><br>
+
+<font class=index>Enviando seu site para um servidor web</font><hr>
+
+<br><br>
+
+<b>Sobre o arquivo:</b> Sabemos que a página de internet é um arquivo de texto simples contendo um código-fonte HTML, e que este é interpretado pelo navegador e representado na tela do computador. Sabemos também que para que uma página do sei site seja visitada por alguém é preciso que este alguém tenha acesso ao arquivo da página, e por sua vez ao seu código-fonte. Mas como alguém em outro computador pode acessar um arquivo (a página, no caso) que está no seu computador? A resposta é que este arquivo vai pela rede que liga os dois computadores.<br><br>
+
+Fazer um acesso a outro computador numa rede caseira simples, como a rede que liga os computadores de uma lan-house ou de uma escola de informática, é bastante fácil. O problema é como acessar um computador que está em outro estado ou em outro país. Não há uma rede direta que liga os dois computadores. Então é preciso utilizar a internet para fazer a comunicação entre os dois computadores. O Windows Live Messenger é um exemplo de programa que utiliza a internet para ligar dois computadores distantes.<br><br>
+
+Então você se pergunta: posso utilizar a internet para deixar que páginas do meu computador disponíveis para toda a internet? A resposta é: não, não pode. A previsão é que hajam 1,3 bilhões de computadores acessando a internet até 2010. Não tem como todos estes computadores ficarem disponíveis de uma só vez na internet, e isto nem é interessante. Para isto, existem os servidores web, que são computadores acessíveis pela internet de qualquer lugar do mundo e que disponibilizam as páginas de internet do meu site, do seu, e de todos nós.<br><br>
+
+Para que seu site esteja disponível para a internet é preciso que você envie seus arquivo para um destes servidores web. Para fazer isto você primeiro tem que ter uma conta em um provedor de internet que disponibilize este serviço. Tendo esta conta (login e senha) você vai acessar o servidor da sua própria casa e vai enviar os arquivos pela internet. Os arquivos ficarão disponíveis na mesma hora.
+
+Este é só um exemplo de como alterações simples podem repercutir no site. Vamos estudar técnicas para evitar alguns dos problemas que isto pode trazer.<br><br>
+
+<b>Styles:</b> Como vimos antes, um site precisa usar uma formatação padrão para seus elementos. Por exemplo, todo título precisa ser azul e negrito, e todo link precisa ser verde e sublinhado. Se o site não pudesse mudar posteriormente, não teríamos problema algum com isto. Entretanto, o cliente pode pedir para mudar a formatação destes títulos. Supohamos o exemplo citado anteriormente. Seria muito trabalhoso fazer a alteração de cor de todos os títulos.<br><br>
+
+Uma maneira de evitar este tipo de trabalho desnecessário é utilizar estilos (styles). Com eles podemos criar classes de elementos na nossa página, e teremos a certeza de que todo elemento daquela classe terá aquela formatação. Por exemplo:
+
+<div class=sample>
+
+	<table><tbody bgcolor="#FFFFFF">
+		<td width=200>
+			Classe Título<br>
+			Descrição: Todo título tem cor <strong>azul</strong> e fica em negrito.
+		</td>
+		<td width=200 height="100">
+			<span class="t1">Título1</span><br>
+			Blá, blá, blá, blá...<br><br>
+			<span class="t1">Título2</span><br>
+			Blá, blá, blá, blá...<br><br>
+			<span class="t1">Título3</span><br>
+			Blá, blá, blá, blá...<br><br>
+		</td>
+	</table>
+
+</div>
+
+Usando o português (falado por nós, brasileiros), definimos a classe "título", e consequentemente definimos como todo elemento desta classe se comporta. Ou seja, todo título será daquela formatação. Se precisássemos modificar a classe título, digamos, mudar a cor para verde, bastaria mudar a descrição da classe:
+<div class=sample>
+
+	<table><tbody bgcolor="#FFFFFF">
+		<td width=200>
+			Classe Título<br>
+			Descrição: Todo título tem cor <strong>verde</strong> e fica em negrito.
+		</td>
+		<td width=200 height="100">
+			<span class="t2">Título1</span><br>
+			Blá, blá, blá, blá...<br><br>
+			<span class="t2">Título2</span><br>
+			Blá, blá, blá, blá...<br><br>
+			<span class="t2">Título3</span><br>
+			Blá, blá, blá, blá...<br><br>
+		</td>
+	</table>
+
+</div>
+
+Para criar classes no Dreamweaver, clicamos com o botão direito do mouse em qualquer lugar da página e escolhemos o menu "CSS Style", e em seguida clicamos em "New". Aparecerá um menu, como este da imagem: <br><img src="criando_css.jpg"><br>
+Nele nós definimos o tipo da classe (por hora, veremos apenas "Class"), o nome do estilo (ex.: título), e o local onde este estilo vai ficar salvo (por hora, veremos apenas "this document only"). Então aparecerá um menu com várias opções para montarmos nossa classe. Fique à vontade para montar um estilo da forma como achar melhor.<br><br>
+
+<b>Usando um estilo:</b> Para utilizar um estilo, basta selecionar o elemento (pode ser uma imagem, ou mesmo um texto) e definir o seu estilo na barra de propriedades:<br>
+<img src="criando_css2.jpg"><br>
+Ao definir um estilo a um elemento, você está definindo que ele se comportará da forma como está definido na classe. Se a classe for alterada, o que pode ser feito a qualquer momento no menu "CSS Style", todos os elementos que foram definidos como pertencendo àquela classe serão atualizados automaticamente.<br><br>
+
+<b>Usando um arquivo de estilos:</b> Como vimos, um dos objetivos de se criar estilos é evitar a repetição desnecessária de formatar elementos o mesmo tipo. Entretanto, isto se limita apenas à página atual que estamos editando.
+Desta forma, voltamos ao mesmo problema incial..., pois se tivermos um site com 10 páginas, cada uma com 10 elementos do tipo "título" e se quizermos mudar sua cor de verde para azul, teremos que editar o estilo de cada uma das 10 páginas.<br><br>
+
+Para evitar isto, basta apenas usar a folha de estilos em um arquivo à parte, e mandar as páginas importarem esta folha. Veja a imagem abaixo:<br><br>
+
+<img src='estilos.jpg'><br><br>
+
+Desta forma, quando alterarmos alguma propriedade no arquivo de estilos, todo o nosso site (para o exemplo anterior, todos os 100 títulos das 10 páginas) terá a formatação atualizada.<br><br>
+
+No Dreamweaver, para criar uma folha de estilos em um arquivo ao invés de criar na página, selecione a opção "New Style Sheet File" (e não "This document only") em "Define in".<br><br>
+
+<b>Uso de Iframes:</b> Uma técnica importante é o uso de iframes. Você consegue imaginar uma maneira na qual ele ajuda a facilitar as atualizações de um site?<br><br>
+
+Veja a imagem abaixo:<br><br>
+
+<img src='greenplace.jpg'><br><br>
+
+Como vemos, TODAS as páginas do site têm que ter uma imagem no topo, um menu à esquerda, um rodapé no canto inferior e o conteúdo do site no meio. Isto é um modelo de layout.
+Agora, imagine que seu cliente pediu para que o layout do site mudasse, de forma que o menu ficasse abaixo da imagem de cima. Você teria que mudar o layout de todas as páginas do site, colocando o menu de cada página abaixo da imagem do tipo?<br><br>
+
+Para evitar isto, podemos usar "iframes". Fazemos a página principal, e nela colocamos um iframe onde as outras páginas serão abertas. Veja a imagem:<br><br>
+<img src='greenplace2.jpg'><br><br>
+
+Desta forma, se precisarmos alterar alguma coisa no layout do site, alteraremos apenas na página principal, e não em todas as páginas.<br><br>
+
+<b>**Lembre-se de que todas as páginas (a principal e as outras (páginas filhas)) precisarão utilizar um arquivo de estilos</b>

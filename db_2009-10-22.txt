@@ -1,0 +1,74 @@
+-- MySQL dump 10.10
+--
+-- Host: localhost    Database: webpd
+-- ------------------------------------------------------
+-- Server version	5.0.16-nt
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `arquivos`
+--
+
+DROP TABLE IF EXISTS `arquivos`;
+CREATE TABLE `arquivos` (
+  `arquivo_id` int(10) NOT NULL auto_increment,
+  `nome` varchar(255) NOT NULL,
+  `dono` varchar(255) NOT NULL,
+  `data_envio` datetime NOT NULL,
+  PRIMARY KEY  (`arquivo_id`),
+  UNIQUE KEY `dono` (`dono`,`nome`),
+  CONSTRAINT `arquivos_ibfk_1` FOREIGN KEY (`dono`) REFERENCES `login` (`login`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `arquivos`
+--
+
+
+/*!40000 ALTER TABLE `arquivos` DISABLE KEYS */;
+LOCK TABLES `arquivos` WRITE;
+INSERT INTO `arquivos` VALUES (1,'New File','jackson','2009-10-22 01:51:22'),(2,'foto.jpg','jackson','2009-10-22 01:51:22'),(3,'1_wheelchair.png','jackson','2009-10-22 01:51:22'),(4,'castelo.jpg','jackson','2009-10-22 01:51:22'),(5,'Backup_of_codeware.cdr','jackson','2009-10-22 02:05:49');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `arquivos` ENABLE KEYS */;
+
+--
+-- Table structure for table `login`
+--
+
+DROP TABLE IF EXISTS `login`;
+CREATE TABLE `login` (
+  `login` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  PRIMARY KEY  (`login`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+
+/*!40000 ALTER TABLE `login` DISABLE KEYS */;
+LOCK TABLES `login` WRITE;
+INSERT INTO `login` VALUES ('fernando','fernando'),('george','george'),('jackson','jurema');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `login` ENABLE KEYS */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
