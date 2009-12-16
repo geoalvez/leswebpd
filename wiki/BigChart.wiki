@@ -1,0 +1,14 @@
+BIGCHART
+
+
+|| Data || Domain-Classes || Testes de Unidade || Páginas JSP/HTML || User Stories ||
+|| 24/07/2009 || 0 || 0 || 0 || 0 ||
+|| 08/10/2009 || 0 || 0 || 0 || 1 ||
+|| 22/10/2009 || 7 || 0 || 6 || 2 ||
+|| 05/11/2009 || 8 || 2 || 6 || 4 ||
+|| 19/11/2009 || 11 || 4 || 6 || 5 ||
+|| 03/12/2009 || 11 || 6 || 8 || 6 ||
+|| 17/12/2009 || 0 || 0 || 0 || 0 ||
+
+
+<img src='http://www.sccnet.com.br/jackson/ForumAgrotoxicos/banco_imagens/5.jpg'>
