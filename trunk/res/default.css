@@ -1,0 +1,51 @@
+
+	body,td{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 13 }
+	body{ background-image:url(../backs/main.gif); background-color:#D9E0E6 }
+	hr{ height: 1 }
+	img{ border: 0 }
+	a{ color: blue; text-decoration:none }
+	a:hover{ text-decoration: underline }
+		
+	.menu{ color: white; font-weight: bold; text-align: center; background:url(../backs/botoes.gif); font-size: 10 }
+
+	.white_txt{ color: white }
+	.txt_pequeno{ color: #A0A0A0; font-size: 10 }
+	.index,.little_index{ color: #009933; font-size: 16; font-weight: bold }
+	.little_index{ font-size: 13 }
+	
+	.text{ color:#666666 }
+	.texto,.mtexto{ color: #505050 }
+	.mtexto{ font-size: 13; }
+	
+	.white_link{ color: white }
+	.white_link:hover{ color: yellow }
+
+	.form_table{ background-color: #FFFFFF; padding: 0; border-spacing: 0px; border: 1px #B0B0B0 solid}
+	.form_topo,.form_header{ height: 20;padding: 3 }
+	.form_topo{  color: green; bbackground-image: url(../backs/form_topo.gif) }
+	.form_header{ color: #707070; background-image: url(../backs/form_header.gif) }
+	.form_body{ color: #707070; background-color: #F0F0F0; height: 20; padding: 5 }
+	.form_bottom{ color: green; background-color: #FFFFFF; height: 20 }
+
+	.tinyinput,.tinyinput_nb,.input,.input_nb{ border: 1px solid #004080; background-image: url(../backs/input_back.jpg); font: 13 verdana; vertical-align: middle }
+	.input,.input_nb{ width: 100% }
+	.input_nb,.tinyinput_nb{ background-image: none }
+	
+	.flat_button,.flat_button_l,.flat_button_w{
+		color: white; 
+		height: 20; 
+		border: 1px solid #004080; 
+		background-image:url(../backs/but_e.gif); 
+		font: 13 verdana; 
+		vertical-align: middle
+	}
+	.flat_button_l{ font: 10 verdana }
+	.flat_button_w{ width: 100% }
+
+	.img_3d{ border: 2px inset }
+	
+	.erro{ color: red; font-weight: bold }
+	.sucesso{ color: blue; font-weight: bold }
+
+	.box{ border: 1px dashed #000000; background-color: #E0E0E0; padding: 5; color: 505050 }
+	.hidden_frame{ position: absolute; top: 0; left: 0; visibility: hidden }

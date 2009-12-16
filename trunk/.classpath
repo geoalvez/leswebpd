@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="dbclass/" kind="src" path="WEB-INF/classes"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-io-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/iText-2.1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/pdfbox-0.8.0-incubating.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/jempbox-0.8.0-incubating.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/fontbox-0.8.0-incubating.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/Apache Software Foundation/Tomcat 6.0/webapps/les/WEB-INF/lib/junit-4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/Apache Software Foundation/Tomcat 6.0/webapps/les/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
