@@ -36,6 +36,7 @@ US4: Dar início ao componente Agente
 || A4.1 || Criar uma versão que apenas receba um arquivo PDF por upload. || Fernando || 12h || 4h || Concluído ||
 || A4.2 || Interligar o Analisador de Arquivos ao Agente. || Todos || 12h || 4h || Vigente(?) ||
 
+
 =Plano da 5ª iteração=
 
 ==Iteração==
