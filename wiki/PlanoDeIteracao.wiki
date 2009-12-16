@@ -1,31 +1,34 @@
-Plano da 1ª iteração
-Iteração
+=Plano da 1ª iteração=
+==Iteração==
 
 US1: Estudar Java para WEB e mecanismos de teste
-Tabela de Alocação de Atividades (TAA)
+
+==Tabela de Alocação de Atividades (TAA)==
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
 || A1.1 || Estudar o framework Java e mecanismos de teste || Fernando/George || 12h || x || Concluido ||
 || A1.2 || Desenvolver o protótipo para apresentar ao cliente || Jackson || 6h || 1h || Concluido ||
 
 Observação: Houve mudança de linguagem(de PHP para Java).
-Plano da 2ª iteração
-Iteração
+
+=Plano da 2ª iteração=
+==Iteração==
 
 US2: Implementar Interface gráfica do sistema
-Tabela de Alocação de Atividades (TAA)|| 
+
+==Tabela de Alocação de Atividades (TAA)==
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
 || A2.1 || Implementar tela de login e senha || Jackson || 12h || 16h || Concluído ||
 || A2.2 || Implementar tela de upload de arquivos || Jackson || 12h || 4h || Concluído ||
 
-Plano da 3ª iteração
-Iteração
+=Plano da 3ª iteração=
+==Iteração==
 
 US3: Implementar completamente o Analisador de Arquivos
-
 US4: Dar início ao componente Agente
-Tabela de Alocação de Atividades (TAA)
+
+==Tabela de Alocação de Atividades (TAA)==
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
 || A3.1 || Implementar a validação do arquivo PDF recebido || Todos || 12h || 16h || Concluído ||
