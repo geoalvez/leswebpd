@@ -1,0 +1,27 @@
+=Reuniões=
+
+    * Horário da reunião do grupo: quarta, das 19:00 às 21:00
+    * Horário da reunião com o cliente: quarta, das 16:00 às 17:00 
+
+==Síntese das reuniões==
+
+==14/09/2009 - Reunião Inicial com Herman.==
+
+===Discussão:===
+
+    * Visão Geral sobre o Sistema a ser desenvolvido; 
+
+==16/09/2009 - Reunião em Grupo==
+
+===Discussão:===
+
+    * Divisão de papéis;
+    * Familiarização com xplanner; 
+
+==21/09/2009 - Reunião com os monitores==
+
+===Discussão:===
+
+    * Dúvidas gerais;
+    * Sobre o xplanner;
+    * Sobre o googlecode; 
