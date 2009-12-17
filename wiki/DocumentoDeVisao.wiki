@@ -12,38 +12,38 @@ Requisitos Funcionais
 
 ===Componente 01 – Agente===
 
-   1. Recebe Arquivo;
-   2. Salva o arquivo no servidor e os seus metadados no banco de dados;
-   3. Envia o arquivo para o analisador de arquivos, recebendo o texto bruto correspondente;
-   4. Envia o texto bruto para o analisador de textos, recebendo um conjunto de fragmentos do texto;
-   5. Envia os elementos do conjunto de fragmentos, um por vez, para o buscador, recebendo para cada fragmento um conjunto de URLs das páginas que os contêm;
-   6. Quando concluída a busca, salva no banco de dados o conjunto de fragmentos e o conjunto de URLs encontradas para o arquivo;
-   7. Gerencia a comunicação entre os outros componentes. 
+  # Recebe Arquivo;
+  # Salva o arquivo no servidor e os seus metadados no banco de dados;
+  # Envia o arquivo para o analisador de arquivos, recebendo o texto bruto correspondente;
+  # Envia o texto bruto para o analisador de textos, recebendo um conjunto de fragmentos do texto;
+  # Envia os elementos do conjunto de fragmentos, um por vez, para o buscador, recebendo para cada fragmento um conjunto de URLs das páginas que os contêm;
+  # Quando concluída a busca, salva no banco de dados o conjunto de fragmentos e o conjunto de URLs encontradas para o arquivo;
+  # Gerencia a comunicação entre os outros componentes. 
 
 ===Componente 02 – Analisador de Arquivo===
 
-   1. Faz validação do arquivo PDF recebido;
-   2. Extrai texto do arquivo para um formato manipulável pelo sistema; 
+  # Faz validação do arquivo PDF recebido;
+  # Extrai texto do arquivo para um formato manipulável pelo sistema; 
 
 ===Componente 03 - Tratador de Textos===
 
-   1. Recebe o texto completo extraído do arquivo;
-   2. Quebra o texto de forma definida pelo usuário, formando um conjunto de fragmentos; 
+  # Recebe o texto completo extraído do arquivo;
+  # Quebra o texto de forma definida pelo usuário, formando um conjunto de fragmentos; 
 
 ===Componente 04 - Buscador===
 
-   1. Busca no Google por trechos de textos;
-   2. Para cada busca, retorna o conjunto de endereços encontrados; 
+  # Busca no Google por trechos de textos;
+  # Para cada busca, retorna o conjunto de endereços encontrados; 
 
 ===Componente 06 - Exibe Resultados===
 
-   1. Monta e exibe um relatório com base nos metadados do arquivo pesquisado; 
+  # Monta e exibe um relatório com base nos metadados do arquivo pesquisado; 
 
 ===Requisitos Não Funcionais===
 
-   1. Acesso via Web;
-   2. Sistema de fácil Usabilidade e manipulação;
-   3. Tempo de resposta de acordo com o grau de profundidade da busca (buscas mais precisas pode demorar até um dia). 
+  # Acesso via Web;
+  # Sistema de fácil Usabilidade e manipulação;
+  # Tempo de resposta de acordo com o grau de profundidade da busca (buscas mais precisas pode demorar até um dia). 
 
 ==Perfil do Usuário==
 
