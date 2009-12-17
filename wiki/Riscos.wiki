@@ -1,0 +1,6 @@
+=Riscos do projeto=
+
+|| Data || Risco || Prioridade || Status || Responsáveis || Solução ||
+|| 08/09/09 || Não ter tempo suficiente para aprender JSP || Alta || Sanado|| Todos || Estudar tecnologia ||
+|| 08/09/09 || Não encontrar ferramentas para teste || Alta || Sanado || Todos || Procurar alternativa mais viável ||
+|| 08/09/09 || Um dos integrante não está disponível || Alta || Sanado || Todos || Tentar suprir a ausência do referido componente ||
