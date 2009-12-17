@@ -4,7 +4,7 @@
 ==US1==
 
 <b>Estudar Tecnologia Java para WEB e Mecanismos para Testes</b><br>
-TA1.1 - Verificar se a tecnologia dá suporte a todas as funcionalidades necessárias ao projeto.<br>
+TA1.1 - Verificar se a tecnologia dá suporte a todas as funcionalidades necessárias ao projeto.<br> 
 Estimativa inicial: <b>12h</b><br>
 
 ==US2==
