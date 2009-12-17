@@ -1,0 +1,11 @@
+=Página principal=
+
+<img src='http://www.sccnet.com.br/jackson/LES/ss1.jpg'>
+
+=Home do usuário=
+
+<img src='http://www.sccnet.com.br/jackson/LES/ss2.jpg'>
+
+=Visualização dos resultados do processamento de um artigo=
+
+<img src='http://www.sccnet.com.br/jackson/LES/ss3.jpg'>
