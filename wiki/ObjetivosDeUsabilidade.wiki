@@ -1,0 +1,6 @@
+=Objetivos de Usabilidade=
+
+|| Objetivo || Mensuração ||
+|| Ser fácil de usar || Tempo para aprendizagem ||
+|| Possuir Interface Simples || Observar dificuldades de navegação ||
+|| Reduzir a taxa de erros || Número de tarefas concluídas sem falhas. ||
