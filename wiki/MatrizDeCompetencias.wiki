@@ -1,0 +1,6 @@
+Matriz de competência
+
+|| Equipe || Competências ||
+|| Fernando Fagundes || JAVA, VB.NET, MySQL ||
+|| George Alves || JAVA, HTML, VB.NET, ORACLE ||
+|| Jackson Porciúncula || JAVA, HTML, VB.NET, MySQL, PHP, Designer gráfico ||
