@@ -54,7 +54,6 @@ function concluir(){
 			out.println( "<script>concluir()</script>" );
 
 		} catch (Exception e) {
-
 			out.println( "<script> alert( \"Aviso: " + e.getMessage() + "\" ) </script>" );
 		}
 
