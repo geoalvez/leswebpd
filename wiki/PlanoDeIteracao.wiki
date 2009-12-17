@@ -65,10 +65,9 @@ US7: Criar o componente Exibe Resultados
 
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
-|| A7.1 || Criar o algoritmo de análise de arquivo  || Fernando || 2h || 2h || Concluido ||
-|| A7.2 || Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados  || Jackson || 12h || 23h || Concluído ||
-|| A7.3 || Criar uma versão de exibição detalhada dos resultados  || George || 2h || 4h || Concluido ||
-|| A7.4 || Atualizar Interface Gráfica || Fernando || 12h || 12h || Concluido ||
-|| A7.5 || Criar novos testes de unidade das classes modificadas || George || 2h || 2h || Concluído  ||
-|| A7.6 || Aprimorar o algoritmo para atender as requisições finais do cliente || Fernando || 2h || 2h || Concluido ||
-|| A5.6 ||  || Jackson || 10h || 12h || Concluido ||
+|| A7.1 || Criar o algoritmo de análise de arquivo  || Jackson || 12h || 20h || Concluido ||
+|| A7.2 || Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados  || George || 4h || 3h || Concluído ||
+|| A7.3 || Criar uma versão de exibição detalhada dos resultados  || Fenando || 6h || 8h || Concluido ||
+|| A7.4 || Aprimorar o algoritmo para atender as requisições finais do cliente || Jackson || 2h || 2h || Concluido ||
+|| A7.5 || Aprimorar a  interface gráfica para atender as requições finais do cliente || George || 3h || 4h || Concluido ||
+|| A7.6 || Criar novos testes de unidade das classes modificadas || Fenando || 2h || 2h || Concluído  ||
