@@ -7,7 +7,7 @@ Planejamento 24 Setembro
 || Iteração || Release || Data || User Stories ||
 || Iteração 1 || - || 8 de outubro || US1 ||
 || Iteração 2 || Release 1 || 22 de outubro || US2 ||
-|| Iteração 3 || - || 5 de novembro || US3, US4 ||
+|| Iteração 3 || - || 5 de novembro || US3/US4 ||
 || Iteração 4 || Release 2 || 19 de novembro || US6 ||
 || Iteração 5 || - || 3 de dezembro || US5 ||
 || Iteração 6 || Release Final || 17 de dezembro || US7 ||
