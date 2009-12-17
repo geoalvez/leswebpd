@@ -6,7 +6,10 @@
   * Projeto WebPD
 
 <b>Problema identificado:</b>
+  * É cada vez mais comum diversas formas de plágio no meio acadêmico. Com as facilidades da internet um aluno pode facilmente criar um documento que não é de sua autoria e entregar ao professor como se o aluno o tivesse criado. O professor tem a trabalhosa tarefa de procurar pedaços do documento, um por um, na internet a fim de detectar plágios.
+
 <b>Solução proposta:</b>
+  * O objetivo deste projeto é conceber um sistema de apoio a detecção de plágio a partir da automatização de heurísticas simples utilizadas por humanos em buscas na web para esse propósito. 
 
 <b>Cliente:</b>
   * Herman Martins Gomes
