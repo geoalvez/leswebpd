@@ -1,0 +1,27 @@
+=Descrição do algoritmo de identificação de plágio.=
+
+Primeiramente pega-se o documento PDF e extrai-se todo o seu texto bruto, sem formatação, imagens, links, arquivos de mídia etc.
+
+Uma vez que este texto é extraído, utiliza-se uma janela deslizante para quebrar o texto em vários trechos, que serão buscados cada um individualmente no google. A quebra do texto obedece aos seguintes parâmetros:
+
+  * Offset do início do arquivo: quantidade de palavras que deve-se ignorar no começo do texto. Útil para evitar que cabeçalhos e índices do documento entrem na pesquisa;
+  * Tamanho da janela de busca: quantidade de palavras que a janela conterá. Cada trecho quebrado terá uma quantidade de palavras igual ao tamanho da janela (exceto o último, que pode ficar com menos palavras);
+  * Passo de busca: quantidade de palavras que separa o início de uma janela do início da próxima;
+
+Uma vez que temos um conjunto de trechos, faz-se uma busca individual no Google para cada trecho. A quantidade de resultados e os 10 primeiros links encontrados para cada trecho ficam guardados no banco de dados.
+
+Quando todos os trechos estão devidamente concluídos é feita a avaliação do arquivo. Esta consiste em fazer uma iteração em todos os trechos e pegar o número de resultados encontrados para cada um. Então é feita uma comparação com um valor de Limiar de Detecção, definido pelo usuário. Se a quantidade de resultados encontrados para aquele trecho for maior que 0(zero) e menor ou igual a teta, então este trecho é contado como hit (possivelmente é um plagio). Caso contrário, o trecho é contado como um miss, e não é contabilizado.
+
+Perceba que o hit ocorre quando o número de resultados daquele trecho é menor, e não maior, que teta. Isto porque quanto maior a quantidade de resultados encontrado menor é a probabilidade de ser um plágio, pois quanto maior a quantidade de resultados mais comum o trecho é. Imagine por exemplo buscar o trecho "é possível que haja outra solução". Muitos resultados serão encontrados por ser um trecho comum.
+
+A porcentagem de trechos com hit será o que define se o documento pode ser um plágio ou não. De forma bem simples, se o documento obteve 30% dos trechos com hit, então ele tem 30% de chances de ser plágio. Estes valores não são definitivos, serão apenas usados como base para um estudo posterior de quais valores são realmente indicadores de plágio.
+
+Algo inevitável neste algoritmo é o bloqueio do Google. Um documento grande pode possuir mais que 1000(mil) janelas ao final da quebra, e serão feitas 1000(mil) buscas consecutivas no Google. Facilmente ele detecta isto e identifica o conjunto de buscas como buscas automáticas, e para evitar que isto continue ele pede uma autenticação humana. Ele envia uma imagem com um código e um campo onde deve ser digitado o tal código. Entretanto identificar através de um algoritmo o código contido na imagem é intratável com a tecnologia à qual o projeto WEBPD tem disponibilidade. É por isto que esta técnica de bloqueio é usada pelo Google. Então, um arquivo grande não pode ser analisado de uma única vez, para evitar que tal bloqueio ocorra.
+
+A página do Google onde ocorre a autenticação é a seguinte: http://sorry.google.com/sorry/
+
+Para tentar burlar isto, o algoritmo faz consultas com um espaço de tempo entre cada uma.
+
+A Evidência de Plágio Global é um indicador de probabilidade de aquele documento ter sido plageado. Ele é calculado de forma bem simples. Basta dividir a quantidade de trechos com hit pela quantidade de trechos total, e teremos a porcentagem de probabilidade de aquele documento ter sido plageado, a Evidência de plágio Global.
+
+Também há a Evidência de Plágio Local, que define sequencias de trechos com hit. Estas sequencias terão tamanho mínimo igual ao Limiar de Plágio Local, informado pelo usuário. Por exemplo, se o usuário define o Limiar de Plágio Local como 5, então quando o sistema encontrar 5 ou mais trechos consegutivos do documento com hit, será evidenciado um plágio local. Caso a quantidade de trechos consecutivos seja menor que o limiar, então não se evidencia plágio local.
