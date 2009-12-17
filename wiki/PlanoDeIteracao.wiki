@@ -37,6 +37,19 @@ US4: Dar início ao componente Agente
 || A4.2 || Interligar o Analisador de Arquivos ao Agente. || Todos || 12h || 4h || Concluído ||
 
 
+=Plano da 4ª iteração=
+==Iteração==
+
+US6: Criar completamente o componente Buscador
+
+==Tabela de Alocação de Atividades (TAA)==
+
+|| Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
+|| A4.1 || Fazer com que seja capaz de manipular o código-fonte da página de busca do google || Jackson || 12h || 20h || Concluído ||
+|| A4.2 || Interligar o Buscador ao Agente|| George || 12h || 16h || Concluído ||
+|| A4.3 || Fazer testes de unidade || Fernando || 4h || 4h || Concluído ||
+
+
 =Plano da 5ª iteração=
 
 ==Iteração==
