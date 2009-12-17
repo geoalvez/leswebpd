@@ -1,4 +1,4 @@
-=Descrição do algoritmo de identificação de plágio.=
+=Descrição do algoritmo de identificação de plágio=
 
 Primeiramente pega-se o documento PDF e extrai-se todo o seu texto bruto, sem formatação, imagens, links, arquivos de mídia etc.
 
