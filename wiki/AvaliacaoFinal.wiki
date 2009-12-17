@@ -101,7 +101,7 @@ Com relação à IDE, utilizamos o Eclipse. Este foi satisfatório para o desenv
 
 ==4) Liste abaixo os nomes dos integrantes da equipe, indique para cada um: avaliação final sugerida; principal contribuição ao projeto.==
 
-  * Fernando Fagunde de Andrade: Participou ativamente do projeto, compareceu a todas as reuniões e contribuiu com o projeto como desenvolvedor, gerenciando a parte de documentação do projeto e projetando parte da interface. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0.
+  * Fernando Fagundes de Andrade: Participou ativamente do projeto, compareceu a todas as reuniões e contribuiu com o projeto como desenvolvedor, gerenciando a parte de documentação do projeto e projetando parte da interface. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0.
 
   * George Marcelo: Participou ativamente do projeto, compareceu a todas as reuniões e contribuiu no projeto principalmente na parte de testes e desenvolvimento. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0.
 
