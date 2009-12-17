@@ -1,30 +1,13 @@
 =Plano de Release=
 
-==Definição Projeto/Equipe 03 Setembro==
+Definição Projeto/Equipe 03 Setembro
 
-==Planejamento 24 Setembro==
+Planejamento 24 Setembro
 
-==Iteração 1  (8 Outubro)==
-
-  * US1
-
-==Iteração 2 – Release 1 (22 Outubro)==
-
-  * US2
-
-==Iteração 3 (5 Novembro)==
-
-  * US3
-  * US4
-
-==Iteração 4 – Release 2 (19 Novembro)==
-
-  * US6
-
-==Iteração 5 (3 Dezembro)==
-
-  * US5
-
-==Iteração 6 – Release Final (17 Dezembro)==
-
-  * US7
+|| Iteração || Release || Data || User Stories ||
+|| Iteração 1 || - || 8 de Outubro || US1 ||
+|| Iteração 2 || Release 1 || 22 de outubro || US2 ||
+|| Iteração 3 || - || 5 de novembro || US3, US4 ||
+|| Iteração 4 || Release 2 || 19 de novembro || US6 ||
+|| Iteração 5 || - || 3 de dezembro || US5 ||
+|| Iteração 6 || Release Final || 17 de dezembro || US7 ||
