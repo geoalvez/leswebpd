@@ -1,0 +1,50 @@
+=DOCUMENTO DE VISÃO=
+
+==PROJETO WEBPD - A WEB BASED TOOL TO PLAGIARISM DETECTION IN ACADEMIC WORK==
+Descrição:
+
+É cada vez mais comum diversas formas de plágio no meio acadêmico. Muitas destas formas podem ser facilmente detectadas através da realização de consultas em mecanismos de buscas na web (comoGoogle) http://arstechnica.com/tech-policy/news/2009/05/can-web-based-plagiarism-detection-beat-a-google-search.ars.
+
+O objetivo deste projeto é conceber um sistema de apoio a detecção de plágio a partir da automatização de heurísticas simples utilizadas por humanos em buscas na web para esse propósito.
+
+O sistema deverá receber um arquivo de texto num formato pré-determinado (PDF), decompor esse arquivo em sequencias de caracteres utilizando regras pré-estabelecidas, realizar automaticamente buscas na web com essas sequencias, e compilar automaticamente (também a partir de regras heurísticas), a partir dos resultado, ums sumário das partes do texto onde pode ter ocorrido plágio, indicando um grau de certeza para cada suspeita.
+Requisitos Funcionais
+
+===Componente 01 – Agente===
+
+   1. Recebe Arquivo;
+   2. Salva o arquivo no servidor e os seus metadados no banco de dados;
+   3. Envia o arquivo para o analisador de arquivos, recebendo o texto bruto correspondente;
+   4. Envia o texto bruto para o analisador de textos, recebendo um conjunto de fragmentos do texto;
+   5. Envia os elementos do conjunto de fragmentos, um por vez, para o buscador, recebendo para cada fragmento um conjunto de URLs das páginas que os contêm;
+   6. Quando concluída a busca, salva no banco de dados o conjunto de fragmentos e o conjunto de URLs encontradas para o arquivo;
+   7. Gerencia a comunicação entre os outros componentes. 
+
+===Componente 02 – Analisador de Arquivo===
+
+   1. Faz validação do arquivo PDF recebido;
+   2. Extrai texto do arquivo para um formato manipulável pelo sistema; 
+
+===Componente 03 - Tratador de Textos===
+
+   1. Recebe o texto completo extraído do arquivo;
+   2. Quebra o texto de forma definida pelo usuário, formando um conjunto de fragmentos; 
+
+===Componente 04 - Buscador===
+
+   1. Busca no Google por trechos de textos;
+   2. Para cada busca, retorna o conjunto de endereços encontrados; 
+
+===Componente 06 - Exibe Resultados===
+
+   1. Monta e exibe um relatório com base nos metadados do arquivo pesquisado; 
+
+===Requisitos Não Funcionais===
+
+   1. Acesso via Web;
+   2. Sistema de fácil Usabilidade e manipulação;
+   3. Tempo de resposta de acordo com o grau de profundidade da busca (buscas mais precisas pode demorar até um dia). 
+
+==Perfil do Usuário==
+
+Professores da pós-gradução em Ciência da Computação. São usuários que possuem conhecimento avançado no uso de computadores, podendo até sugerirem idéias sobre como desenvolver o sistema. 
