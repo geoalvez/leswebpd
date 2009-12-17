@@ -3,50 +3,49 @@
 
 ==US1==
 
-<b>Estudar Tecnologia Java para WEB e Mecanismos para Testes</b>
-TA1.1 - Verificar se a tecnologia dá suporte a todas as funcionalidades necessárias ao projeto.
-Estimativa inicial: <b>12h</b>
-
+<b>Estudar Tecnologia Java para WEB e Mecanismos para Testes</b><br>
+TA1.1 - Verificar se a tecnologia dá suporte a todas as funcionalidades necessárias ao projeto.<br>
+Estimativa inicial: <b>12h</b><br>
 
 ==US2==
 
-<b>Implementar Interface gráfica do sistema</b>
-TA2.1 - Fazer tela de login e senha(Login e senha devem estar corretos para acessar o sistema)
-TA2.2 - Fazer tela de upload de arquivo(O arquivo deve estar no formato .pdf)
-Estimativa inicial: <b>12h</b>
+<b>Implementar Interface gráfica do sistema</b><br>
+TA2.1 - Fazer tela de login e senha(Login e senha devem estar corretos para acessar o sistema)<br>
+TA2.2 - Fazer tela de upload de arquivo(O arquivo deve estar no formato .pdf)<br>
+Estimativa inicial: <b>12h</b><br>
 
 ==US3==
 
-<b>Implementar completamente o Analisador de Arquivos</b>
-TA3.1 - Fazer validação do arquivo PDF recebido(Se o arquivo estiver no formato .pdf o mesmo será validado)
-TA3.2 - Extrair o texto do arquivo para um formato manipulável pelo sistema
-Estimativa inicial: <b>12h</b>
+<b>Implementar completamente o Analisador de Arquivos</b><br>
+TA3.1 - Fazer validação do arquivo PDF recebido(Se o arquivo estiver no formato .pdf o mesmo será validado)<br>
+TA3.2 - Extrair o texto do arquivo para um formato manipulável pelo sistema<br>
+Estimativa inicial: <b>12h</b><br>
 
 ==US4==
 
-<b>Dar início ao componente Agente</b>
-TA4.1 - Criar uma versão que apenas receba um arquivo PDF por upload.(Retorna mensagem de erro caso não seja .pdf)
-TA4.2 - Interligar o Analisador de Arquivos ao Agente
-Estimativa inicial: <b>6h</b>
+<b>Dar início ao componente Agente</b><br>
+TA4.1 - Criar uma versão que apenas receba um arquivo PDF por upload.(Retorna mensagem de erro caso não seja .pdf)<br>
+TA4.2 - Interligar o Analisador de Arquivos ao Agente<br>
+Estimativa inicial: <b>6h</b><br>
 
 ==US5==
 
-<b>Criar completamente o componente Tratador de Textos</b>
-TA5.1 - Criar a interface onde o usuário escolhe as opções de quebra.
-TA5.2 - Criar o algoritmo de quebra de textos.
-TA5.3 - Interligar o Tratador de Textos ao Agente
-Estimativa inicial: <b>12h</b>
+<b>Criar completamente o componente Tratador de Textos</b><br>
+TA5.1 - Criar a interface onde o usuário escolhe as opções de quebra.<br>
+TA5.2 - Criar o algoritmo de quebra de textos.<br>
+TA5.3 - Interligar o Tratador de Textos ao Agente<br>
+Estimativa inicial: <b>12h</b><br>
 
 ==US6==
 
-<b>Criar completamente o componente Buscador</b>
-TA6.1 - Fazer com que seja capaz de manipular o código-fonte da página de busca do google.
-TA6.2 - Interligar o Buscador ao Agente
-Estimativa inicial: <b>12h</b>
+<b>Criar completamente o componente Buscador</b><br>
+TA6.1 - Fazer com que seja capaz de manipular o código-fonte da página de busca do google.<br>
+TA6.2 - Interligar o Buscador ao Agente<br>
+Estimativa inicial: <b>12h</b><br>
 
 ==US7==
 
-<b>Criar o componente Exibe Resultados</b>
-TA7.1 - Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados.
-TA7.2 - Criar uma versão de exibição detalhada dos resultados.
-Estimativa inicial: <b>12h</b>
+<b>Criar o componente Exibe Resultados</b><br>
+TA7.1 - Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados.<br>
+TA7.2 - Criar uma versão de exibição detalhada dos resultados.<br>
+Estimativa inicial: <b>12h</b><br>
