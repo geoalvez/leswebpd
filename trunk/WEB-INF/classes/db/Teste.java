@@ -7,9 +7,10 @@ public class Teste {
 
 	public static void main( String args[] ) throws Exception{
 
-		BuscadorGoogleResultado bg = Buscador.buscarNoGoogle("A bibliographic revision about the related subject, a");
+		BuscadorGoogleResultado bg = Buscador.buscarNoGoogle("grade ad hoc deve ter. Dentre essas características, as que");
 
 		System.out.println( bg.count + "," + bg.links.size() );
+
 	}
 
 }

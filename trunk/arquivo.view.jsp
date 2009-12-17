@@ -127,7 +127,7 @@ function atualizar_porcentagem(){
 		<%
 		
 		if( request.getParameter("teta") == null ){
-			out.println("Defina o valor de 'teta' para avaliar o arquivo");
+			out.println("Defina o valor do Limiar de tececção para avaliar o arquivo");
 		}else{
 
 			int[] hits = BuscadorResultado.TrechosComHits( arquivo.getID(), teta );

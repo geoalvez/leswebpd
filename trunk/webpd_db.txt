@@ -1,0 +1,125 @@
+-- MySQL dump 10.10
+--
+-- Host: localhost    Database: webpd
+-- ------------------------------------------------------
+-- Server version	5.0.16-nt
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `arquivos`
+--
+
+DROP TABLE IF EXISTS `arquivos`;
+CREATE TABLE `arquivos` (
+  `arquivo_id` int(10) NOT NULL auto_increment,
+  `nome` varchar(255) NOT NULL,
+  `dono` varchar(255) NOT NULL,
+  `data_envio` datetime NOT NULL,
+  `situacao` int(1) NOT NULL default '0',
+  `texto_extraido` longtext,
+  PRIMARY KEY  (`arquivo_id`),
+  KEY `arquivos_ibfk_1` (`dono`),
+  CONSTRAINT `arquivos_ibfk_1` FOREIGN KEY (`dono`) REFERENCES `login` (`login`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `arquivos`
+--
+
+
+/*!40000 ALTER TABLE `arquivos` DISABLE KEYS */;
+LOCK TABLES `arquivos` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `arquivos` ENABLE KEYS */;
+
+--
+-- Table structure for table `buscador_resultados`
+--
+
+DROP TABLE IF EXISTS `buscador_resultados`;
+CREATE TABLE `buscador_resultados` (
+  `id` int(10) NOT NULL auto_increment,
+  `arquivo_id` int(10) NOT NULL,
+  `trecho` varchar(255) NOT NULL,
+  `count` int(20) NOT NULL default '0',
+  `concluido` int(1) NOT NULL default '0',
+  PRIMARY KEY  (`id`),
+  KEY `arquivo_id` (`arquivo_id`),
+  CONSTRAINT `buscador_resultados_ibfk_1` FOREIGN KEY (`arquivo_id`) REFERENCES `arquivos` (`arquivo_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `buscador_resultados`
+--
+
+
+/*!40000 ALTER TABLE `buscador_resultados` DISABLE KEYS */;
+LOCK TABLES `buscador_resultados` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `buscador_resultados` ENABLE KEYS */;
+
+--
+-- Table structure for table `buscador_resultados_links`
+--
+
+DROP TABLE IF EXISTS `buscador_resultados_links`;
+CREATE TABLE `buscador_resultados_links` (
+  `id` int(10) NOT NULL auto_increment,
+  `buscador_resultado_id` int(10) default NULL,
+  `link` text NOT NULL,
+  PRIMARY KEY  (`id`),
+  KEY `buscador_resultado_id` (`buscador_resultado_id`),
+  CONSTRAINT `buscador_resultados_links_ibfk_1` FOREIGN KEY (`buscador_resultado_id`) REFERENCES `buscador_resultados` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `buscador_resultados_links`
+--
+
+
+/*!40000 ALTER TABLE `buscador_resultados_links` DISABLE KEYS */;
+LOCK TABLES `buscador_resultados_links` WRITE;
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `buscador_resultados_links` ENABLE KEYS */;
+
+--
+-- Table structure for table `login`
+--
+
+DROP TABLE IF EXISTS `login`;
+CREATE TABLE `login` (
+  `login` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  PRIMARY KEY  (`login`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+
+/*!40000 ALTER TABLE `login` DISABLE KEYS */;
+LOCK TABLES `login` WRITE;
+INSERT INTO `login` VALUES ('administrador','123456');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `login` ENABLE KEYS */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
