@@ -6,7 +6,7 @@ US1: Estudar Java para WEB e mecanismos de teste
 ==Tabela de Alocação de Atividades (TAA)==
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
-|| A1.1 || Estudar o framework Java e mecanismos de teste || Fernando/George || 12h || x || Concluido ||
+|| A1.1 || Estudar o framework Java e mecanismos de teste || Fernando/George || 12h || 30h || Concluido ||
 || A1.2 || Desenvolver o protótipo para apresentar ao cliente || Jackson || 6h || 1h || Concluido ||
 
 Observação: Houve mudança de linguagem(de PHP para Java).
@@ -34,7 +34,7 @@ US4: Dar início ao componente Agente
 || A3.1 || Implementar a validação do arquivo PDF recebido || Todos || 12h || 16h || Concluído ||
 || A3.2 || Implementar a extração do texto do arquivo para um formato manipulável pelo sistema || Jackson || 12h || 4h || Concluído ||
 || A4.1 || Criar uma versão que apenas receba um arquivo PDF por upload. || Fernando || 12h || 4h || Concluído ||
-|| A4.2 || Interligar o Analisador de Arquivos ao Agente. || Todos || 12h || 4h || Vigente(?) ||
+|| A4.2 || Interligar o Analisador de Arquivos ao Agente. || Todos || 12h || 4h || Concluído ||
 
 
 =Plano da 5ª iteração=
