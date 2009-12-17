@@ -63,8 +63,9 @@ US7: Criar o componente Exibe Resultados
 
 ==Tabela de Alocação de Atividades (TAA)==
 
-|| A7.1 || Criar o algoritmo de análise de arquivo  || Fernando || 2h || 2h || Concluido ||
+
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
+|| A7.1 || Criar o algoritmo de análise de arquivo  || Fernando || 2h || 2h || Concluido ||
 || A7.2 || Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados  || Jackson || 12h || 23h || Concluído ||
 || A7.3 || Criar uma versão de exibição detalhada dos resultados  || George || 2h || 4h || Concluido ||
 || A7.4 || Atualizar Interface Gráfica || Fernando || 12h || 12h || Concluido ||
