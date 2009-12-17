@@ -1,0 +1,25 @@
+=Definição de Papéis=
+
+==1ª Release==
+
+|| Herman Martins Gomes || Cliente ||
+|| Herman Martins Gomes || Usuário ||
+|| Fernando Fagundes || Gerente ||
+|| George Alves || Desenvolvedor ||
+|| Jackson Porciúncula || Testador ||
+
+==2ª Release==
+
+|| Herman Martins Gomes || Cliente ||
+|| Herman Martins Gomes || Usuário ||
+|| Fernando Fagundes || Testador ||
+|| George Alves || Gerente||
+|| Jackson Porciúncula || Desenvolvedor  ||
+
+==3ª Release==
+
+|| Herman Martins Gomes || Cliente ||
+|| Herman Martins Gomes || Usuário ||
+|| Fernando Fagundes || Desenvolvedor ||
+|| George Alves || Testador ||
+|| Jackson Porciúncula || Gerente ||
