@@ -69,9 +69,24 @@ Como nos foi relatado pelo próprio cliente, o nível de satisfação foi alto. 
 
 ===a) Cada um dos integrantes da equipe deve indicar: 1) qual o ponto alto de sua etapa como gerente? 2) Qual o ponto baixo de sua etapa como gerente? 3) Você recomenda alguma mudança no processo YP? Se sim, qual?===
 
+<b>Fernando:</b>
+
+Como ponto alto foi ter observado que a linguagem que iríamos utilizar poderia comprometer o sucesso do projeto e a organização inicial dos artefatos que seriam complementados ao decorrer do projeto, não tendo pontos baixos.
+Como recomendação sugiro que a iteração final seja antecipada por uma semana da apresentação final para que as possíveis  alterações finais desejadas pelo cliente sejam realizadas com mais tranqüilidade. 
+
+
+<b>George:</b>
+
+Na minha gerência, foi tomada a decisão de antecipar user stories consideradas cruciais para o sucesso do projeto, acatando as sugestões da professora.  Tal decisão nos deu mais tempo para fazermos aperfeiçoamentos na implementação na reta final do projeto.
+Considero como ponto baixo os problemas que tivemos com o repositório, que dificultavam o compartilhamento do código entre os integrantes da equipe. Problema esse que foi sanado na minha 2º iteração como gerente. 
+Quanto ao processo, não tenho reclamações. 
+
+
 <b>Jackson:</b>
 
 Como gerente, gostei de liderar as reuniões com o cliente e de coordenar as atividades definidas para cada membro na última release.
+
+Na minha gerência também foi enfim concluído o algoritmo de analise de arquivo, junto com o cliente.
 
 Como ponto baixo, não tive nada muito grave. A pior parte foi gerenciar o Wiki do projeto, que teve que ser refeito 3 vezes por problemas que ocorreram no servidor, e ter que recolocar todas as informações novamente.
 
