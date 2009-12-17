@@ -59,14 +59,14 @@ US5: Criar completamente o componente Tratador de Textos
 
 ==Iteração==
 
-US5: Criar completamente o componente Tratador de Textos
+US7: Criar o componente Exibe Resultados
 
 ==Tabela de Alocação de Atividades (TAA)==
 
 || Atividade || Descrição || Responsável(eis) || Tempo Estimado || Tempo Real || Status ||
-|| A5.1 || Refatoramento do codigo do projeto para possibilitar a quebra do texto, sem ocorrer time out || Jackson || 12h || 23h || Concluído ||
-|| A5.2 || Criar a interface onde o usuário escolhe as opções de quebra. || George || 2h || 4h || Concluido ||
-|| A5.3 || Criar o algoritmo de quebra de textos. || Fernando || 12h || 12h || Concluido ||
-|| A5.4 || Interligar o Tratador de Textos ao Agente || George || 2h || 2h || Concluído  ||
-|| A5.5 || Criar novos testes de unidade das classes modificadas || Fernando || 2h || 2h || Concluido ||
-|| A5.6 || Refatoramento do algoritmo de quebra || Jackson || 10h || 12h || Concluido ||
+|| A7.1 || Gerar as estatísticas correspondentes dos arquivos com base nos seus metatados  || Jackson || 12h || 23h || Concluído ||
+|| A7.2 || Criar uma versão de exibição detalhada dos resultados  || George || 2h || 4h || Concluido ||
+|| A7.3 ||  || Fernando || 12h || 12h || Concluido ||
+|| A5.4 ||  || George || 2h || 2h || Concluído  ||
+|| A5.5 ||  || Fernando || 2h || 2h || Concluido ||
+|| A5.6 ||  || Jackson || 10h || 12h || Concluido ||
