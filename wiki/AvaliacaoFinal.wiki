@@ -76,7 +76,7 @@ Com relação ao YP, acho que ele é bastante adequado à disciplina de LES. Nã
 
 ===b) O gerente deve produzir um Big Chart final, acumulando todos os dados, com os seguintes comentários: 1) Como você avalia a produtividade da equipe?; 2) Analise o gráfico final gerado.===
 
-<img src='http://www.sccnet.com.b/jackson/ForumAgrotoxicos/banco_imagens/6.jpg'> 
+<img src='http://www.sccnet.com.br/jackson/ForumAgrotoxicos/banco_imagens/6.jpg> 
 
 Eu analiso a produtividade da equipe como satisfatória, pois o projeto foi concluído com sucesso com 100% das funcionalidades implementadas. Entretanto, a produtividade da equipe poderia ter sido maior no começo do projeto, e o cliente poderia ter tido um resultado antecipado.
 
