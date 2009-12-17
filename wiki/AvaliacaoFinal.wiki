@@ -91,7 +91,7 @@ O crescimento de produtividade ocorreu na segunda metade do desenvolvimento, que
 
 Aprendemos que é de extrema importância que os riscos detectados sejam sanados o mais rápido possível, pois eles podem atrapalhar todo o desenvolvimento do projeto. Trabalhar com riscos não sanados causam uma grande incerteza e podem causar uma grande perda de produção caso os riscos se concretizem.
 
-===d) Fizemos uso de: (X) XPlanner (X) CVS
+===d) Fizemos uso de: (X) XPlanner (X) CVS===
 
 ===e) Vocês sentiram falta de alguma ferramenta de apoio? Qual?===
 
