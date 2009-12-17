@@ -1,6 +1,5 @@
 BIGCHART
 
-
 || Data || Domain-Classes || Testes de Unidade || Páginas JSP/HTML || User Stories ||
 || 24/07/2009 || 0 || 0 || 0 || 0 ||
 || 08/10/2009 || 0 || 0 || 0 || 1 ||
