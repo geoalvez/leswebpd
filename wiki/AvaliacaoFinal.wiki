@@ -1,0 +1,105 @@
+=Avaliação de LES – Período 2009.2=
+
+==1) Descrição Geral do Projeto==
+
+<b>Título:</b>
+  * Projeto WebPD
+
+<b>Problema identificado:</b>
+<b>Solução proposta:</b>
+
+<b>Cliente:</b>
+  * Herman Martins Gomes
+
+<b>Gerente:</b>
+  * Jackson Porciúncula da Silva
+
+<b>URL do projeto:</b>
+  * http://code.google.com/p/leswebpd/
+
+==2) Resultados Obtidos==
+
+===a) Funcionalidades implementadas no sistema gerado [user stories planejadas vs. user stories obtidas; atendimento requisitos não funcionais; nível de mudanças no projeto arquitetural; novas demandas do cliente]===
+
+<b>Lista de User Story</b>
+
+  * US1: Estudar Tecnologia Java para WEB e Mecanismos para Testes
+  * US2: Implementar Interface gráfica do sistema
+  * US3: Implementar completamente o Analisador de Arquivos
+  * US4: Dar início ao componente Agente
+  * US5: Criar completamente o componente Tratador de Textos
+  * US6: Criar completamente o componente Buscador
+  * US7: Criar o componente Exibe Resultados
+
+Todas as UserStories foram implementadas de acordo com o cronograma especificado.
+
+<b>Requisitos não funcionais atendidos:</b>
+
+  * Acesso via Web
+  * Sistema de fácil Usabilidade e manipulação
+  * Tempo de resposta de acordo com o grau de profundidade da busca (buscas mais precisas pode demorar até um dia)
+
+Todos os requesitos não funcionais especificados pelo cliente foram atendidos.
+
+<b>Nível de mudança no projeto arquitetural:</b>
+
+  * Mudança da linguagem de programação do projeto de PHP para JSP
+  * Uso do servidor web TomCat
+
+O projeto arquitetural sofreu poucas mudanças.
+
+<b>Novas demandas pelo cliente:</b>
+
+  * Alteração no algoritmo de detecção de plágio para identificar plágio local (em um pedaço específico do documento).
+
+A nova demanda do cliente foi satisfatoriamente implementada
+
+===b) Testes realizados [cobertura dos testes realizados: unidade, aceitação, outros]===
+
+Foram feitos testes de unidade e de aceitação (este segundo teve participação do cliente).
+
+===c) Como vocês analisam o grau de satisfação final do cliente?===
+
+Como nos foi relatado pelo próprio cliente, o nível de satisfação foi alto. Todas as requisições do cliente foram atendidas, inclusive as novas demandas.
+
+==3) Gerência do Projeto==
+
+===a) Cada um dos integrantes da equipe deve indicar: 1) qual o ponto alto de sua etapa como gerente? 2) Qual o ponto baixo de sua etapa como gerente? 3) Você recomenda alguma mudança no processo YP? Se sim, qual?===
+
+<b>Jackson:</b>
+
+Como gerente, gostei liderar as reuniões com o cliente e de coordenar as atividades definidas para cada membro na última release.
+
+Como ponto baixo, não tive nada muito grave. A pior parte foi gerenciar o Wiki do projeto, que teve que ser refeito 3 vezes por problemas que ocorreram no servidor, e ter que recolocar todas as informações novamente.
+
+Com relação ao YP, acho que ele é bastante adequado à disciplina de LES. Não tenho conhecimento aprofundado em engenharia de software, e por isto não arrisco a sugerir mudanças, pois como falei, eu o acho bastante adequado.
+
+===b) O gerente deve produzir um Big Chart final, acumulando todos os dados, com os seguintes comentários: 1) Como você avalia a produtividade da equipe?; 2) Analise o gráfico final gerado.===
+
+<img src='http://www.sccnet.com.b/jackson/ForumAgrotoxicos/banco_imagens/6.jpg'> 
+
+Eu analiso a produtividade da equipe como satisfatória, pois o projeto foi concluído com sucesso com 100% das funcionalidades implementadas. Entretanto, a produtividade da equipe poderia ter sido maior no começo do projeto, e o cliente poderia ter tido um resultado antecipado.
+
+No início do projeto houve vários problemas que levaram ao atraso e perca de produtividade. Um deles foi a ausência de um componente por problemas de saúde, e outro foi a mudança da linguagem de programação. A equipe teve que se readaptar para aprender uma nova linguagem e contar com apenas dois componentes. Os testes de unidade acompanharam as classes do projeto, e as páginas JSP/HTML foram independentes.
+
+O crescimento de produtividade ocorreu na segunda metade do desenvolvimento, que foi quando a equipe já possuía conhecimento da tecnologia usada.
+
+===c) No tocante aos riscos levantados e analisados, qual o aprendizado final da equipe?===
+
+Aprendemos que é de extrema importância que os riscos detectados sejam sanados o mais rápido possível, pois eles podem atrapalhar todo o desenvolvimento do projeto. Trabalhar com riscos não sanados causam uma grande incerteza e podem causar uma grande perda de produção caso os riscos se concretizem.
+
+=== d) Fizemos uso de: (X) XPlanner (X) CVS
+
+===e) Vocês sentiram falta de alguma ferramenta de apoio? Qual?===
+
+Sentimos falta de uma documentação maior e mais eficaz sobre JSP e seus plugins. Muitas das funcionalidades em JSP precisam ser feitas utilizando bibliotecas externas, e elas chegam a ser um pouco confusas e geralmente cada uma segue um padrão de implementação próprio. Isto causou um pouco de confusão ao utilizá-las.
+
+Com relação à IDE, utilizamos o Eclipse. Este foi satisfatório para o desenvolvimento, mas algumas pequenas particularidades poderiam ser melhoradas para facilitar o desenvolvimento, como o code-hint completo do JSP e o servidor JSP próprio funcionando (utilizamos um servidor externo ao Eclipse).
+
+==4) Liste abaixo os nomes dos integrantes da equipe, indique para cada um: avaliação final sugerida; principal contribuição ao projeto.==
+
+  * Fernando Fagunde de Andrade: Participou ativamente do projeto, compareceu a todas as reuniões e contribuiu com o projeto como desenvolvedor, gerenciando a parte de documentação do projeto e projetando parte da interface. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0.
+
+  * George Marcelo: Participou ativamente do projeto, compareceu a todas as reuniões e contribuiu no projeto principalmente na parte de testes e desenvolvimento. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0.
+
+  * Jackson Porciúncula da Silva: Participou ativamente do projeto, compareceu a quase todas as reuniões e contribuiu com o projeto fazendo a parte de desenvolvimento mais ‘pesada’, como o núcleo do projeto, gerenciamento do banco de dados e o AJAX próprio do projeto. Por ter atendido a todas as demandas que lhe foram incumbidas no projeto, sugerimos nota 10,0 
