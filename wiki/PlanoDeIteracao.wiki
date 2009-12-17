@@ -70,5 +70,5 @@ US7: Criar o componente Exibe Resultados
 || A7.3 || Criar uma versão de exibição detalhada dos resultados  || George || 2h || 4h || Concluido ||
 || A7.4 || Atualizar Interface Gráfica || Fernando || 12h || 12h || Concluido ||
 || A7.5 || Criar novos testes de unidade das classes modificadas || George || 2h || 2h || Concluído  ||
-|| A5.5 ||  || Fernando || 2h || 2h || Concluido ||
+|| A7.6 || Aprimorar o algoritmo para atender as requisições finais do cliente || Fernando || 2h || 2h || Concluido ||
 || A5.6 ||  || Jackson || 10h || 12h || Concluido ||
