@@ -1,0 +1,13 @@
+=Projeto Arquitetural=
+
+<img src='http://lh6.ggpht.com/_8hkXnAMSuMc/StxZcaoQ27I/AAAAAAAAACU/EGX2gJAxgVg/s800/ProjetoArquitetural.JPG'>
+
+A arquitetura entre os componentes segue o padrão n-camadas, onde há a camada de visualização (do lado do cliente) e a camada de negócio (do lado de servidor), ambas desenvolvidas em tecnologia web.
+
+A interface do sistema é completamente direcionada para navegadores de internet, utilizando a interpretação de código HTML e JavaScript. Todo o código-fonte das páginas da interface será gerado pelas páginas dinâmicas JSP, que ficam no lado do servidor. O envio das páginas e de solicitações da máquina cliente utilizará o protocolo HTTP.
+
+A arquitetura do sistema permite que este possa ficar em um servidor web na internet ou em uma máquina comum. Entretanto a máquina na qual o sistema esteja precisa ter acesso à internet, de onde obterá as respostas do site do Google. A seguir uma descrição das características da hospedagem das páginas:
+
+  # Servidor Web:Tomcat Apache (servidor livre).
+  # Páginas JSP: Formatam a resposta do processamento das classes internas e exibem formulários onde o cliente pode enviar solicitações. Não devem fazer nenhum tipo de processamento de lógica de negócio.
+  # Classes Java: Fazem toda a lógica de negócio do sistema.
